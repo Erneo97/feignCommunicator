@@ -6,7 +6,7 @@ public record Repository(
         String fullName,
         String description,
         String cloneUrl,
-        long starts,
+        long stars,
         LocalDate createdAt
 ) {
 }
